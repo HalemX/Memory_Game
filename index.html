@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./Css/style.css" />
+  </head>
+  <body>
+    <!-- button to start game -->
+    <div class="start-control">
+      <span>Start Game.<br>You only have a (1) minute of time to solve the game&#128552;</span>
+    </div>
+
+    <!-- Information About Player -->
+    <div class="info-container">
+      <div class="name">Hello : <span></span></div>
+      <div class="trias">Wrong Tries : <span>0</span></div>
+      <div><span id="h">0</span>:<span id="m">0</span>:<span id="s">0</span></div>
+    </div>
+
+    <!-- Box Of Game -->
+    <div class="memory-game-blocks">
+      <div class="game-block" data-player="mbabe">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (1).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="mbabe">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (1).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="neymar">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (2).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="neymar">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (2).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="modrich">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (3).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="modrich">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (3).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="marcelo">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (4).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="marcelo">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (4).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="haland">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (5).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="haland">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (5).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="mehrez">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (6).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="mehrez">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (6).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="ronaldo">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (10).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="ronaldo">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (10).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="salah">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/images.jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="salah">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/images.jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="banzema">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/images (2).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="banzema">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/images (2).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="messi">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (9).jpeg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-player="messi">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./images/download (9).jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="pupup"></div>
+    <audio
+      id="welcome"
+      src="./Soundes/welcome-to-todays-game.mp3"
+      preload="auto"
+    ></audio>
+    <audio id="suc" src="./Soundes/success.mp3" preload="auto"></audio>
+    <audio id="fail" src="./Soundes/fail.mp3" preload="auto"></audio>
+    <script src="./Js/main.js"></script>
+  </body>
+</html>
